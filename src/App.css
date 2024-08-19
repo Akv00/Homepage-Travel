@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  gap:100px;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+}
+
+.App-header .scroll-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer; 
+}
+
+.App-header .scroll-link:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.services {
+  
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.card { 
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
