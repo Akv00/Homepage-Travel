@@ -58,8 +58,9 @@
 }
 
 .scroll_link:hover {
-    background-color: #555;
+    background-color: #fff;
     border-radius: 4px;
+    color: black
 }
 
 
