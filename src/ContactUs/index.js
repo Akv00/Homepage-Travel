@@ -7,7 +7,11 @@ function ContactUs() {
   return (
     <div className={styles.contactUs}>
         <div className={styles.intro}>
-        <div className={styles.company}>Let's Plan Your Travel Journey Now With <br></br><span style={{ color: '#CCB0FF' }}>Tavel Agency Name</span></div>
+        <div className={styles.company}>Let's Plan Your Travel Journey Now With <div><img 
+    src={`${process.env.PUBLIC_URL}/logo.png`} 
+    alt="Travel Agency Logo" 
+    className="w-full h-16" 
+  /></div></div>
         <div className={`${styles.social_media} text-5xl`}><span>Follow us on</span> <div className={styles.icon}><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>
             <FaInstagram  style={{ color: 'white'}}/>
           </a>
@@ -32,15 +36,15 @@ function ContactUs() {
             <span style={{fontWeight: '600'}} className="text-3xl mb-5">Contact Info</span>
             <div className={`${styles.contactItem} text-2xl`}>
             <FaPhone className={styles.icon} />
-            <span>phone no.</span>
+            <span>7428857621 / 9810099767</span>
             </div>
             <div className={`${styles.contactItem} text-2xl`}>
                 <FaEnvelope className={styles.icon} />
-                <span>emailhere@gmail.com</span>
+                <span>asmservices5@asm5.co.in</span>
             </div>
             </div>
             <div className={styles.footer}> <FaMapMarker className={styles.icon} />
-        <span className="text-xl">1234 Travel St, Wanderlust City, TX 12345</span></div>
+        <span className="text-xl">23A- 23B DDA FLATS MANSAROVER PARK DELHI 110032</span></div>
         </div>
         
 

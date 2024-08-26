@@ -5,6 +5,11 @@ function Header() {
   return (
     <div >
       <header className="App-header h-24 grid-cols-6">
+        <span><img 
+    src={`${process.env.PUBLIC_URL}/logo.png`} 
+    alt="Travel Agency Logo" 
+    style={{ width: 'auto', height: '50px' }} 
+  /></span>
       <Link to="home" smooth={true} duration={500} className="scroll-link text-2xl font-semibold hover:scale-125 transition-transform col-span-1 flex items-center justify-center h-full">Home</Link>
       <Link to="ticket-booking" smooth={true} duration={500} className="scroll-link text-2xl font-semibold hover:scale-125 transition-transform col-span-1 flex items-center justify-center h-full">Ticket Booking</Link>
       <Link to="visa-booking" smooth={true} duration={500} className="scroll-link text-2xl font-semibold hover:scale-125 transition-transform col-span-1 flex items-center justify-center h-full">Visa Booking</Link>
