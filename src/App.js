@@ -28,7 +28,7 @@ function App() {
       <Header /> 
       <div id="home"><HomePage /></div>
       <div className="services font-serif text-5xl font-bold mb-5">Our Services</div>
-      <div id="card" className="card">
+      <div id="card" className="card ">
         <Card
                 id="ticket-booking"
                 imageSrc="https://okcredit-blog-images-prod.storage.googleapis.com/2021/09/gstonairtickets1.jpg"
