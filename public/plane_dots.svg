@@ -1,0 +1,9 @@
+<svg width="800" height="200" xmlns="https://img.freepik.com/premium-vector/vector-illustration-airplane-dotted-line-route_759707-60.jpg">
+  <path d="M10 80 Q 95 10 180 80 T 350 80 T 520 80 T 690 80" fill="transparent" stroke="#007bff" stroke-width="2"/>
+  <circle cx="10" cy="80" r="5" fill="#007bff"/>
+  <circle cx="180" cy="80" r="5" fill="#007bff"/>
+  <circle cx="350" cy="80" r="5" fill="#007bff"/>
+  <circle cx="520" cy="80" r="5" fill="#007bff"/>
+  <circle cx="690" cy="80" r="5" fill="#007bff"/>
+  <polygon points="690,75 700,80 690,85 695,80" fill="#007bff"/> <!-- Plane icon -->
+</svg>
