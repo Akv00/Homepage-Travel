@@ -32,7 +32,7 @@ function Card({ id,imageSrc, title, description ,linkUrl,linkText,position}) {
         (position === 'left' ? styles.animate_right : styles.animate_left) : '';
         console.log(isVisible);
     return (
-        <div id= {id} className={`${styles.card} ${cardClass}${imageClass}`} ref={cardRef}>
+        <div id= {id} className={`${styles.card} ${cardClass}`} ref={cardRef}>
             <div>
                 
             <img src={imageSrc} alt="Card image" className={styles.card_image} /></div>
