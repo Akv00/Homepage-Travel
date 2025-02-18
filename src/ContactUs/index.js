@@ -25,7 +25,7 @@ function ContactUs() {
         <span style={{ color:'#CCB0FF' , fontWeight: '700' }} className="text-3xl font-bold">Navigations</span>
         <Link to="home" smooth={true} duration={500} className={styles.scroll_link}>Home</Link>
         <Link to="ticket-booking" smooth={true} duration={500} className={styles.scroll_link}>Ticket Booking</Link>
-        <Link to="visa-booking" smooth={true} duration={500} className={styles.scroll_link}>Visa Booking</Link>
+        <Link to="visa-booking" smooth={true} duration={500} className={styles.scroll_link}>Visa Facilitation</Link>
         <Link to="hotel-booking" smooth={true} duration={500} className={styles.scroll_link}>Hotel Booking</Link>
         <Link to="travel-insurance" smooth={true} duration={500} className={styles.scroll_link}>Travel Insurance</Link>
         <Link to="contact" smooth={true} duration={500} className={styles.scroll_link}>Contact Us</Link>

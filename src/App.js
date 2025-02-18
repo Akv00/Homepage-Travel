@@ -41,7 +41,7 @@ function App() {
         <Card
                 id="visa-booking"
                 imageSrc="https://media.cntraveler.com/photos/6488c0ef4c5fe8af9fb0e801/4:3/w_2652,h_1989,c_limit/Is-Your-Passport-Too-Torn-Up-to-Use_spencer-davis-0QcSnCM0aMc-unsplash.jpg"
-                title="Visa Booking"
+                title="Visa Facilitation"
                 description="Apply for your visa hassle-free with our streamlined online process. Get expert guidance, track your application status, and ensure a smooth approval journey. Simplify your travel plans today!"
                 linkUrl="#"
                 linkText="Book Now"

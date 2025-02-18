@@ -32,7 +32,7 @@ function Header() {
           <Link to="ticket-booking" smooth={true}  duration={500} className='block text-2xl font-semibold hover:scale-125 transition-transform py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Ticket Booking</Link>
         </li>
         <li>
-        <Link to="visa-booking" smooth={true}  duration={500} className='block text-2xl font-semibold hover:scale-125 transition-transform py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Visa Booking </Link>
+        <Link to="visa-booking" smooth={true}  duration={500} className='block text-2xl font-semibold hover:scale-125 transition-transform py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Visa Facilitation </Link>
         </li>
         <li>
         <Link to="hotel-booking" smooth={true}  duration={500} className='block text-2xl font-semibold hover:scale-125 transition-transform py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Hotel Booking </Link>
